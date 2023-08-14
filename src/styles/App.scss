@@ -1,0 +1,37 @@
+@import './core/reset.scss';
+@import './core/variables.scss';
+
+.container {
+background-color: rgb(225, 211, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 2s; 
+  &.transitionColor {
+    background-color: rgb(13, 14, 31);
+  }
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 0 gray, -2px 0 gray,
+    0 2px gray, 0 -2px gray;
+  position: relative;
+  transition: font-size 3s, letter-spacing 3s, color 1s;
+  letter-spacing: 3px;
+  font-size: $font-size-title;
+ 
+  &.start {
+    letter-spacing: 20px;
+    cursor: pointer;
+    font-size: $font-size-transition;
+  }
+  &.transitionColor {
+    
+    color: whitesmoke;
+    text-shadow: 2px 0 rgb(189, 188, 188), -2px 0 gray,
+      0 2px gray, 0 -2px gray;
+  }
+}
