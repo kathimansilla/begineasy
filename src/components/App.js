@@ -10,7 +10,7 @@ function App() {
     setTimeout(() => {
       setBrand('BeginEasy');
       setIsLoading(true);
-    }, 1500);
+    }, 1000);
   }, []);
 
   setInterval(() => {
