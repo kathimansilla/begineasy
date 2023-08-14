@@ -1,8 +1,8 @@
 # Begineasy
 
-- Personal project
-
 ⛏ Under construction page
+
+- Personal project
 
 ## ⚒ Tools (at the moment)
 
