@@ -19,7 +19,7 @@ background-color: rgb(225, 211, 195);
     text-shadow: 2px 0 rgb(86, 85, 85), -2px 0 gray,
     0 2px gray, 0 -2px gray;
   position: relative;
-  transition: font-size 3s, letter-spacing 3s, color 1s;
+  transition: font-size 3s, letter-spacing 3s, color 1s, text-shadow 1s;
   letter-spacing: 3px;
   font-size: $font-size-title;
  
