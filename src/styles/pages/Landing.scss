@@ -1,0 +1,29 @@
+.container {
+  background-color: rgb(225, 211, 195);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  transition: background-color 2s;
+  &.transitionColor {
+    background-color: rgb(10, 11, 37);
+  }
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 0 rgb(86, 85, 85), -2px 0 gray, 0 2px gray, 0 -2px gray;
+  transition: font-size 3s, letter-spacing 3s, color 1s, text-shadow 1s;
+  letter-spacing: 3px;
+  font-size: 20rem;
+  font-size: $font-size-title;
+  &.start {
+    letter-spacing: 20px;
+    font-size: $font-size-transition;
+  }
+  &.transitionColor {
+    color: whitesmoke;
+    text-shadow: none;
+  }
+}
